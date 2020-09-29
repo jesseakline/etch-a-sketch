@@ -1,0 +1,31 @@
+body {
+    background-color:snow ;
+}
+h1 {
+    text-align: center;
+}
+#btnContainer {
+    text-align: center;
+    padding-bottom: 15px;
+}
+#resetBtn {
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+#resetBtn:hover {
+    box-shadow: 1px 1px 1px gray;
+}
+#gridcontainer {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    grid-template-rows: repeat(100, 1fr);
+    width: 800px;
+    height: 800px;
+    border: 10px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+}
